@@ -33,6 +33,9 @@ classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 're
 
 classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu'))
 
+classifier.add(Dense(units = 3, kernel_initializer = 'uniform', activation = 'relu'))
+
+
 classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
 
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
