@@ -7,6 +7,8 @@ Artificial neural networks or connectionist systems are computing systems that a
 ## Packages and Tools Required:
 
 ```bash
+Tesnorflow
+Keras
 Spyder
 Jupyter Notebook
 ```
@@ -14,6 +16,7 @@ Jupyter Notebook
 ## Package Installation
 
 ```bash
+conda install -c conda-forge tensorflow
 conda install -c conda-forge keras
 ```
 Jupyter Notebook Installation Guide [Click Here](https://jupyter.org/install)
